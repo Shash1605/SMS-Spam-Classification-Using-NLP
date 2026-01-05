@@ -27,3 +27,18 @@ This project implements a machine learning solution to classify SMS messages as 
 1. Clone the repository:
    ```bash
    git clone [https://github.com/your-username/spam-classification-nlp.git](https://github.com/your-username/spam-classification-nlp.git)
+
+## Install required packages:
+pip install pandas numpy scikit-learn nltk
+
+## Download NLTK resources:
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
+## Results
+The project outputs the accuracy for each individual model and a final classification report for the Voting Ensemble.
+
+Ensemble Accuracy: +90%
+
+Key Metrics: Detailed Precision and Recall for both Spam and Ham classes are included in the output.
